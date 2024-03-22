@@ -1,19 +1,10 @@
-# encoding: utf-8
-# ******************************************************
-# Author       : zzw922cn
-# Last modified: 2017-12-20 11:00
-# Email        : zzw922cn@gmail.com
-# Filename     : gardener.py
-# Description  : Spelling Corrector for Chinese
-# ******************************************************
-
 import os
 import json
 import numpy as np
 from hanziconv import HanziConv
 from pypinyin import pinyin
-from speechvalley.lm.spellingChecker4CN.utils import filter_punctuation
-from speechvalley.utils.taskUtils import check_path_exists
+from spellingChecker.utils import filter_punctuation
+from utils.taskUtils import check_path_exists
 
 class CorpusGardener(object):
     """

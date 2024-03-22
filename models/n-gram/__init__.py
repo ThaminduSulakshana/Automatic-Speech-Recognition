@@ -1,2 +1,2 @@
-from speechvalley.models.ngram.generate import *
-from speechvalley.models.ngram.ngram import *
+from models.ngram.generate import *
+from models.ngram.ngram import *

@@ -8,8 +8,8 @@ import numpy as np
 import tensorflow as tf
 from tensorflow.python.ops.rnn import bidirectional_dynamic_rnn
 
-from speechvalley.utils import load_batched_data, describe, setAttrs, list_to_sparse_tensor, dropout, get_edit_distance
-from speechvalley.utils import lnBasicRNNCell, lnGRUCell, lnBasicLSTMCell
+from utils import load_batched_data, describe, setAttrs, list_to_sparse_tensor, dropout, get_edit_distance
+from utils import lnBasicRNNCell, lnGRUCell, lnBasicLSTMCell
 
 def build_multi_dynamic_brnn(args,
                              maxTimeSteps,

@@ -9,8 +9,8 @@ import numpy as np
 import tensorflow as tf
 from tensorflow.python.ops import ctc_ops as ctc
 
-from speechvalley.utils import load_batched_data, describe, describe, getAttrs, output_to_sequence, list_dirs, logging, count_params, target2phoneme, get_edit_distance, get_num_classes, check_path_exists, dotdict, activation_functions_dict, optimizer_functions_dict
-from speechvalley.models import DBiRNN, DeepSpeech2
+from utils import load_batched_data, describe, describe, getAttrs, output_to_sequence, list_dirs, logging, count_params, target2phoneme, get_edit_distance, get_num_classes, check_path_exists, dotdict, activation_functions_dict, optimizer_functions_dict
+from models import DBiRNN, DeepSpeech2
 
 from tensorflow.python.platform import flags
 from tensorflow.python.platform import app
